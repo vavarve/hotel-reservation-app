@@ -26,6 +26,6 @@ The Hotel Reservation Management App is a web application developed using Angula
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/hotel-reservation-app.git
+   git clone https://github.com/vavarve/hotel-reservation-app.git
    cd hotel-reservation-app
    ```
