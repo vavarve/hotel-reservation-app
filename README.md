@@ -21,9 +21,6 @@ The Hotel Reservation Management App is a web application developed using Angula
   - HTML
   - CSS
 
-- **Backend:**
-  - RESTful API (e.g., Node.js/Express or any other backend technology)
-
 ## Installation
 
 1. **Clone the Repository:**
