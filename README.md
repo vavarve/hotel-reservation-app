@@ -1,27 +1,34 @@
-# HotelApp
+# Hotel Reservation Management App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
+## Overview
 
-## Development server
+The Hotel Reservation Management App is a web application developed using Angular that allows users to create, manage, and edit hotel reservations. The application features a user-friendly interface, reactive forms with validation, and CRUD operations integrated with a backend service.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- **Create and Manage Reservations:** Users can add new reservations with details such as guest name, room type, check-in and check-out dates.
+- **Edit Reservations:** Easily edit existing reservations with dynamic form pre-filling.
+- **Reactive Forms:** Utilizes Angular's reactive forms with custom validation to ensure data integrity.
+- **CRUD Operations:** Seamless integration with backend services to perform create, read, update, and delete operations.
+- **Responsive Design:** Optimized for both desktop and mobile devices.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies Used
 
-## Build
+- **Frontend:**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+  - Angular
+  - TypeScript
+  - HTML
+  - CSS
 
-## Running unit tests
+- **Backend:**
+  - RESTful API (e.g., Node.js/Express or any other backend technology)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Installation
 
-## Running end-to-end tests
+1. **Clone the Repository:**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+   ```bash
+   git clone https://github.com/your-username/hotel-reservation-app.git
+   cd hotel-reservation-app
+   ```
