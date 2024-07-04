@@ -2,7 +2,9 @@
 
 ## Overview
 
-The Hotel Reservation Management App is a web application developed using Angular that allows users to create, manage, and edit hotel reservations. The application features a user-friendly interface, reactive forms with validation, and CRUD operations integrated with a backend service.
+This is an Angular-based hotel reservation application. It allows users to view, add, update, and delete hotel reservations. The application uses Mockoon as a mock server to simulate HTTP requests and responses without the need for a real backend database.
+
+The purpose of this project is to demonstrate the concepts of Observables and HTTP requests in an Angular application. By using Mockoon, a mock API server, we can simulate the backend interactions required to manage hotel reservations. This project serves as a practical example of how to handle CRUD (Create, Read, Update, Delete) operations in Angular using reactive forms and HTTP client services.
 
 ## Features
 
@@ -16,10 +18,11 @@ The Hotel Reservation Management App is a web application developed using Angula
 
 - **Frontend:**
 
-  - Angular
-  - TypeScript
-  - HTML
-  - CSS
+- Angular
+- TypeScript
+- Mockoon
+- HTML
+- CSS
 
 ## Installation
 
@@ -29,3 +32,15 @@ The Hotel Reservation Management App is a web application developed using Angula
    git clone https://github.com/vavarve/hotel-reservation-app.git
    cd hotel-reservation-app
    ```
+
+2. **Install dependencies**
+   npm install
+
+3.**Run Mockoon mock server**
+
+- Download and install Mockoon from Mockoon's website.
+- Start the mock server on port 3001.
+
+  4.**Run Angular Server**
+
+- ng serve
